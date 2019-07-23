@@ -1,0 +1,189 @@
+@media only screen and (max-width: 1334px) {
+            body{
+            background-color:  #60ff73;
+            }
+            h1{
+                text-align: center;
+                color:#7b00c6;
+                border: 3px solid #7b00c6;
+                background-color: lightsalmon;
+            }
+            h2{
+                text-align: center;
+                color:lightsalmon;
+                border: 3px solid lightsalmon;
+                background-color: #00c618;
+            }
+            .pad{
+                background-color: lightyellow;
+            }
+            table{
+                width:100%;
+                background-color: lemonchiffon; 
+                opacity: 0.9;
+                border: 5px solid #111111;
+            }
+            .navigation {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: lightpink;
+            }
+
+            li {
+            float: left;
+            }
+
+            li a {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            }
+
+            li a:hover {
+            background-color: violet;
+            }
+
+            .active {
+            background-color: coral;
+            }
+        }
+        @media only print{
+            body{
+            background-color:  white;
+            }
+            table{
+                width:100%;
+                background-color: white; 
+                opacity: 0.9;
+                border: 5px solid #111111;
+            }
+            h1{
+                text-align: center;
+                color:black;
+                border: 3px solid black;
+                background-color: gray;
+            }
+            h2{
+                text-align: center;
+                color: black;
+                border: 3px solid black;
+                background-color: gray;
+            }
+            .pad{
+                background-color: whitesmoke;
+            }
+            .navigation {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: gray;
+            }
+
+            li {
+            float: left;
+            }
+
+            li a {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            }
+
+            li a:hover {
+            background-color: grey;
+            }
+
+            .active {
+            background-color: lightblue;
+            }
+        }
+
+        body{
+            background-color:  #60ff73;
+            margin: auto;
+            width: 1100px;
+        }
+        h1{
+            text-align: center;
+            color:#7b00c6;
+            border: 3px solid #7b00c6;
+            background-color: #c67b00;
+        }
+        h2{
+            text-align: center;
+            color:#c67b00;
+            border: 3px solid #c67b00;
+            background-color: #00c618;
+        }
+        .pad{
+            background-color: #ffdd00;
+        }
+        ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #c6004b;
+        }
+
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+
+        table{
+            width:100%;
+            background-color: #ffff26; 
+            opacity: 0.9;
+            border: 5px solid #111111;
+        }
+
+        li {
+        float: left;
+        }
+
+        li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        }
+
+        li a:hover {
+        background-color: #c600ae;
+        }
+
+        .active {
+        background-color: #c61800;
+        }
+        footer{
+            background-color: #636363
+        }
+        .column1 {
+        float: left;
+        width: 30%;
+        }
+        .column2{
+            float: left;
+            width: 70%;
+        }
+        .logo{
+            border: 3px solid #7b00c6; 
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+        content: "";
+        display: table;
+        clear: both;
+        }
